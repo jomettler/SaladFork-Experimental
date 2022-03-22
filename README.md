@@ -2,3 +2,5 @@
 Repository for Mods by me for the SaladFork 3D Printer
 
 This is a developement repository. Assume that all uploads are untested. There is absolutely no warranty on anything. 
+
+Feel free to open issues or contact me directly in case you find any bugs.
