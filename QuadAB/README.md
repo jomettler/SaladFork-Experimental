@@ -6,13 +6,13 @@ AB-Drive Mounts must be printed with 0.1 or 0.2 layerhight, else there might be 
 ## BOM
 only additionaly needed parts are listed
 
-2x NEMA14
-2x Pulleys
-8x f623 ball bearing
-6x M3x35 BHCS
-4x M3x30 BHCS
-8x M3x12 BHCS
-4x M3x30
+- 2x NEMA14
+- 2x Pulleys
+- 8x f623 ball bearing
+- 6x M3x35 BHCS
+- 4x M3x30 BHCS
+- 8x M3x12 BHCS
+- 4x M3x30
 
 ## Credits
 
