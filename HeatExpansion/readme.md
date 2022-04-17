@@ -41,7 +41,7 @@ With all rails decoupled from the frame, the frame can expand in all directions.
 
 
 ## This Repository
-The STL Uploaded is for 15x15 extrusions according to the SF 150mm CAD. The f3d file can be used as an example how the Nut needs to be shaped to adapt for other extrusions. The STL should be printed with a 0.2 Nozzle, else issues might occure.
+The STL Uploaded is for 15x15 extrusions according to the SF 150mm CAD. The f3d file can be used as an example how the Nut needs to be shaped to adapt for other extrusions. The STL should be printed with a 0.2 Nozzle, else issues might occur.
 
 ## Why no Data?
-I enjoy using my brain and I don´t have enough time to test evertyhing by myself. Data is highly appreciated. This repository does not intend to deliver a final answer or solution, but wants to introduce a possibly better approach for the problem at hand.
+I enjoy using my brain and I don´t have enough time to test evertyhing by myself, so I though sharing might be a good thing in order to help others and myself. Data is highly appreciated. This repository does not intend to deliver a final answer or solution, but wants to introduce a possibly better approach for the problem at hand.
