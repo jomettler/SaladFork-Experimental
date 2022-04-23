@@ -1,6 +1,8 @@
 # heat expansion compensation stuff 
 
 ## General
+This is most likely not relevant for small printers which print with a 0.4 Nozzle or bigger. The Machines below all have proven to work great for what they were (probably) designed for and they seem to meet critical criteria that is currently demanded both by manufactures and hobbyists. This area is of interest for higher precision machines and large builds that want to maintain the current stock precision. 
+
 Heat sources: 
 - hotend
 - bed heater
@@ -10,10 +12,10 @@ Heat sources:
 A lot of work has been done on compensation for errors in printing resolution due to heat expansion (check out [tanaes](https://github.com/tanaes) nice work on the topic). Kinematic coupling for beds and titan or steel backers for gantry extrusions beeing the probably most popular solutions. But they usually come with some general flaws.
 
 ### [Annex K3](https://github.com/Annex-Engineering/Gasherbrum-K3):
-While the Bed is directly mounted to extrusions, the kinematic coupling covers the expansion (and tilt) of the bed extrusions. The gantry rails are mounted in plastic or directly on the gantry extrusions. The design is inherently flawed concerning heat expansion of  rails, frame (except bed extrusions) and bed.
+While the Bed is directly mounted to extrusions, the kinematic coupling covers the expansion (and tilt) of the bed extrusions. The gantry rails are mounted in plastic or directly on the gantry extrusions. The design is inherently flawed concerning heat expansion of rails, frame (except bed extrusions) and bed.
 
 ### Voron [Trident](https://github.com/VoronDesign/Voron-Trident) / [Salad Fork](https://github.com/PrintersForAnts/Salad_Fork) / [2.4](https://github.com/VoronDesign/Voron-2) / [Micron](https://github.com/PrintersForAnts/Micron)
-Titan and Steelbackers exist for the gantry extrusions. Kinematic mounting for the Bed. The bed extrusions are mounted to the Z Rails using spherical bearings. Stock builds don´t have any solution for heat expansion errors. The designs are inherently flawed concerning expansion of the rails, frame, and bed. Also, the Z-Axis on these printers only work because of plastic beeing wobbly, due to massive overconstrain.
+Titan and Steelbackers exist for the gantry extrusions. Kinematic mounting for the Bed. The bed extrusions (Trident style)/ gantry extrusions (2.4 Style) are mounted to the Z Rails using spherical bearings. Stock builds don´t have any solution for heat expansion errors. The designs are inherently flawed concerning expansion of the rails, frame, and bed. Also, the Z-Axis on these printers only work because of plastic beeing wobbly, due to massive overconstrain.
 
 ### Backers as a solution:
 Backers follow a simple idea. If heat expansion creates a force in one direction that results in bending, we just need to create another force pulling in the opposite direction to compensate. But it neglects a lot of things: Thermal expansion is still happening and will induce stress into the system at various points. And they have a few obvious downsides since they are not 3D printable, take up space that could be utilized, expensive and add weight. It would be easier to not have this force in the first place, making compensating it unnecessary.
